@@ -9,7 +9,7 @@ body {
 
 .header, .footer {
     background-color: #1F2937;
-    color: white;
+    color: #E5E7EB;
     padding: 10px 13% 0 13%;
 }
 
@@ -28,7 +28,7 @@ body {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    gap: 12px;
+    gap: 20px;
 }
 
 .header-body a {
@@ -76,7 +76,7 @@ body {
 .presentation-body .signup1 {
     background-color: #3882F6;
     border-width: 0px;
-    border-radius: 10%;
+    border-radius: 10px;
     padding: 12px 30px;
     color: #F9FAF8;
     font-weight: bold;
@@ -103,16 +103,16 @@ body {
 }
 
 .information-body li {
-    width: 150px;
+    width: 170px;
     margin-bottom: 60px;
 }
 
 .imgsqr {
-    width: 150px;
-    height: 160px;
+    width: 170px;
+    height: 180px;
     border: #3882F6;
     border-style: solid;
-    border-radius: 10%;
+    border-radius: 15px;
     margin-bottom: 15px;
 }
 
@@ -156,8 +156,45 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: #3882F6;
+    align-items: center;
+    height: 150px;
+    border-radius: 15px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .cta {
     padding: 1% 20%;
+}
+
+.ctawrapper .signup2{
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-radius: 10px;
+    color: #F9FAF8;
+    width: 100px;
+    height: 30px;
+}
+
+.ctawrapper .title3{
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.ctawrapper .description3{
+    color: #F9FAF8;
+    font-weight: lighter;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+
+    padding: 30px 0px;
 }
