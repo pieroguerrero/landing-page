@@ -19,8 +19,26 @@ body {
 }
 
 .header-body .logo {
+
+    display: flex; 
+    /* justify-content: flex-start;
+    align-items: center; */
+    /* width: 100px; */
+    align-items:center;
+    gap: 10px;
+
+}
+
+
+.header-body .logoimg {
+    width: 100px;
+    border-radius:50%;
+}
+
+.header-body .logoname {
     font-size: 24px;
     color: #F9FAF8;
+    align-self:center;
 }
 
 .header-body ul {
@@ -28,7 +46,7 @@ body {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    gap: 20px;
+    gap: 25px;
 }
 
 .header-body a {
@@ -80,7 +98,7 @@ body {
     padding: 12px 30px;
     color: #F9FAF8;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.1em;
 }
 
 .comments {
@@ -89,7 +107,7 @@ body {
 }
 
 .information {
-    padding: 1% 20%;
+    padding: 1% 13%;
 }
 
 .information-body ul {
@@ -103,22 +121,34 @@ body {
 }
 
 .information-body li {
-    width: 170px;
+    width: 190px;
     margin-bottom: 60px;
 }
 
 .imgsqr {
-    width: 170px;
-    height: 180px;
+    width: 190px;
+    height: 200px;
+    /* border: #3882F6;
+    border-style: solid;
+    border-radius: 15px;*/
+    margin-bottom: 15px;
+    padding: 0;
+
+    display: flex;
+
+}
+
+.information-body img {
+    max-width: 100%;
     border: #3882F6;
     border-style: solid;
     border-radius: 15px;
-    margin-bottom: 15px;
+
 }
 
 .information-body .description2 {
     text-align: center;
-    
+
 }
 
 .title2 {
@@ -141,7 +171,7 @@ body {
 
 .comments-body .text1 {
     font-size: 36px;
-    font-style: italic;
+    /* font-style: italic; */
     color: #1F2937;
     font-weight: lighter;
 }
@@ -169,28 +199,29 @@ body {
     padding: 1% 20%;
 }
 
-.ctawrapper .signup2{
+.ctawrapper .signup2 {
     background-color: #3882F6;
     border-color: #F9FAF8;
     border-style: solid;
     border-radius: 10px;
     color: #F9FAF8;
-    width: 100px;
-    height: 30px;
+    padding: 12px 30px;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
-.ctawrapper .title3{
+.ctawrapper .title3 {
     color: #F9FAF8;
     font-weight: bolder;
     font-size: 1.2em;
 }
 
-.ctawrapper .description3{
+.ctawrapper .description3 {
     color: #F9FAF8;
     font-weight: lighter;
 }
 
-.footer{
+.footer {
     display: flex;
     align-items: center;
     margin: 0;
